@@ -55,6 +55,9 @@
       overflow: hidden;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      padding-bottom: 75%; /* Set to maintain a 1:1 aspect ratio */
+      position: relative;
     }
 
     .video-grid-item iframe,
@@ -62,8 +65,10 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
     }
-
   </style>
   
 </head>
