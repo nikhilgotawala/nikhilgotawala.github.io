@@ -1,356 +1,502 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Aravind Cheruvu</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <head>
+    <title>Aravind Cheruvu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+      body {
+        position: relative;
+/*        background-color: #353a47;*/
+            background: url('background.gif')  center center fixed ; /* Set the GIF as the background 
+            background-size: cover;
 
-  <style>
-  body {
-    position: relative; 
-  }
-  .timeline {
-  border-left: 1px solid hsl(0, 0%, 90%);
-  position: relative;
-  list-style: none;
-}
+        */
+      }
 
-.timeline .timeline-item {
-  position: relative;
-}
+      .timeline {
+        border-left: 1px solid hsl(0, 0%, 90%);
+        position: relative;
+        list-style: none;
+      }
 
-.timeline .timeline-item:after {
-  position: absolute;
-  display: block;
-  top: 0;
-}
+      .timeline .timeline-item {
+        position: relative;
+      }
 
-.timeline .timeline-item:after {
-  background-color: hsl(0, 0%, 90%);
-  left: -46px;
-  border-radius: 50%;
-  height: 11px;
-  width: 11px;
-  content: "";
-}
+      .timeline .timeline-item:after {
+        position: absolute;
+        display: block;
+        top: 0;
+      }
 
-  #profile {padding-top:50px;}
-  #section0 {padding-top:50px;color: #000000; background-color: #ffffff;}
-  #section1 {color: #000000; background-color: #ffffff;}
-  #section2 {color: #000000; background-color: #ffffff;}
-  #section3 {color: #000000; background-color: #ffffff;}
-  #section4 {color: #000000; background-color: #ffffff;}
-  #section5 {color: #000000; background-color: #ffffff;}
-    
-    .video-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
+      .timeline .timeline-item:after {
+        background-color: hsl(0, 0%, 90%);
+        left: -46px;
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+        content: "";
+      }
+
+      #profile {
+        padding-top: 50px;
+      }
+
+      #section0 {
+        padding-top: 50px;
+        color: #000000;
+      }
+
+      #section1 {
+        color: #000000;
+      }
+
+      #section2 {
+        color: #000000;
+      }
+
+      #section3 {
+        color: #000000;
+      }
+
+      #section4 {
+        color: #000000;
+      }
+
+      #section5 {
+        color: #000000;
+      }
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+      }
+
+      .video-grid-item {
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        padding-bottom: 75%;
+        /* Set to maintain a 1:1 aspect ratio */
+        position: relative;
+      }
+
+      .video-grid-item iframe,
+      .video-grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .carousel {
+        width: auto;
+        /* Set the width of the carousel */
+        margin: auto;
+        /* Center the carousel */
+      }
+
+      .carousel-inner .item {
+        height: auto;
+        /* Set the height of the carousel items */
+      }
+
+      .embed-responsive {
+        padding-bottom: 56.25%;
+        /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+      }
+
+      .embed-responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    .navbar-custom {
+      background-color: #000000;
     }
-
-    .video-grid-item {
-      overflow: hidden;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      width: 100%;
-      padding-bottom: 75%; /* Set to maintain a 1:1 aspect ratio */
-      position: relative;
-    }
-
-    .video-grid-item iframe,
-    .video-grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  </style>
-  
-</head>
-<body data-spy="scroll" data-target=".myNavbar" data-offset="50">
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"></a>
-    </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#section0">About Me</a></li>
-          <li><a href="#section6">News</a></li>
-          <li><a href="#section1">Publications</a></li>
-          <li><a href="#section2">Education</a></li>
-          <li><a href="#section3">Work Experience</a></li>
-          <li><a href="#section4">Achievements</a></li>
-          <li><a href="#section5">Skills</a></li>
-        </ul>
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".myNavbar" data-offset="50">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top navbar-custom">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#section0">About Me</a>
+            </li>
+            <li class="active">
+              <a href="#section1">News</a>
+            </li>
+            <li class="active">
+              <a href="#section2">Publications</a>
+            </li>
+            <li class="active">
+              <a href="#section3">Education</a>
+            </li>
+            <li class="active">
+              <a href="#section4">Achievements</a>
+            </li>
+            <li class="active">
+              <a href="#section5">Skills</a>
+            </li>
+            <li class="active">
+              <a href="#section6">Work Experience</a>
+            </li>
+            <li class="active">
+              <a href="#section7">Videos</a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </div>
-</nav>    
-
-<div class="row">
-    <div class="col-sm-3" style="background-color:#000000;     padding-right: 0px;padding-left: 0px;" >
-             <!-- <div class="affix"> -->
-              <div id="profile" class="container-fluid" style="padding-right: 0px;" > 
-                  <img src="pic.jpg" class="img-responsive img-rounded center-block" style = ".img-fluid. max-width: auto; height:auto;">
-              </div>
+    </nav>
+    <div class="row">
+      <div class="col-sm-3" style=" padding-right: 0px;padding-left: 0px;">
+        <!-- <div class="affix"> -->
+        <div id="profile" class="container-fluid" style="padding-top: 80px;padding-bottom: 10px; padding-left: 20px; padding-right: 10px;">
+          <img src="pic.jpg" class="img-responsive img-rounded center-block" style=".img-fluid. max-width: auto; height:auto;">
+        </div>
         <!-- <h2 class = "text-center"><span class="label label-success">Aravind Cheruvu</span></h2> -->
         <div class="well well-lg">
-        <h2 style="margin:10px;padding-left: 10px;padding-top: 0px; padding-bottom: 10px;">Aravind Cheruvu</h2>
-        <h5 style="margin:10px;padding-left: 10px" >Graduate Student (Ph.D.)</h5>
-        <h5 style="margin:10px;padding-left: 10px" >Department of CS, Virginia Tech</h5>
-        <h5 style="margin:10px;padding-left: 10px" ><a href="mailto: acheruvu@vt.edu">acheruvu@vt.edu</a></h5></div>
-          <!-- </div> -->
-    </div>
-  <div class="col-sm-9" style="background-color:#000000; padding-right: 0px; padding-left: 0px;">
-    <div id="section0" class="container-fluid">
-    <h3>About Me</h3>
-    <div class="panel panel-info" style="margin-right:20px ; text-align: justify;">
-    <div class="panel-body">
-    <p>I am Aravind Cheruvu, a graduate student (MS + Ph.D.) from the Dept. of C.S. at Virginia Tech. I am advised by <a href="https://people.cs.vt.edu/vbimal/">Dr. Bimal Viswanath</a>. <br> I look into the security aspects of Generative AI models. I have experience working with GANs, and diffusion models in the vision domain and state-of-the-art Large language models (LLMs) in the text domain. I am currently investigating toxicity injection attacks and mitigation in open-domain chatbots. 
-    <br>
-    <br>
-    I have completed my Bachelors in Information Technology in 2016 from VNR VJIET, Hyderabad (affliated to JNTU) where I have gained research experience in the areas of Temporal Data Mining and Network Security.
-    <br>
-    <br>
-    Apart from my research experience, I have 4.5 years of work experience as a Oracle payroll implementation specialist at Deloitte Consulting. I have worked on several large scale projects with several US-based clients.</p><br>
-    Check out my <a href="./Resume.pdf">resume</a> here. <br>     
-    </div>
-    </div>
-    </div>
-
-
-
-<div id="section4" class="container-fluid">
-    <h3>Latest News</h3>
-    <div class="panel panel-info" style="margin-right:20px">
-    <div class="panel-body">
-    <div class="row" >
-    <div class="col-md-12">
-    <ul>
-      <li>
-      <div><h4><b>Presentation of my paper at ACSAC 2023</b><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/Y9FTew96mxo?si=YqeYCBQf6z4lAfwW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></h4>
+          <h2 style="margin:10px;padding-left: 20px;padding-top: 0px; padding-bottom: 10px;padding-right: 10px;">Aravind Cheruvu</h2>
+          <h4 style="margin:10px;padding-left: 20px;padding-right: 10px;">Graduate Student (Ph.D.)</h4>
+          <h4 style="margin:10px;padding-left: 20px;padding-right: 10px;">Department of CS, Virginia Tech</h4>
+          <h4 style="margin:10px;padding-left: 20px;padding-right: 10px;">
+            <a href="mailto: acheruvu@vt.edu">
+              <i class="fas fa-envelope"></i> acheruvu@vt.edu </a>
+          </h4>
+          <h4 style="margin:10px;padding-left: 20px;padding-right: 10px;">
+            <a href="https://scholar.google.co.in/citations?user=nfn3FFQVva4C&hl=en/" target="_blank">
+              <i class="fas fa-graduation-cap"></i> Google Scholar </a>
+          </h4>
+          <h4 style="margin:10px;padding-left: 20px;padding-right: 10px;">
+            <a href="https://github.com/aravindcheruvu" target="_blank">
+              <i class="fab fa-github"></i> GitHub </a>
+          </h4>
+          <h4 style="margin:10px;padding-left: 20px;padding-right: 10px;">
+            <a href="./Resume.pdf" target="_blank">
+              <i class="fas fa-file-alt"></i> CV </a>
+          </h4>
+        </div>
+        <!-- </div> -->
       </div>
-      </li> <br><br> 
-      <li>
-      <div><h4><b>Our news interview to VPM News Focal Point</b><br> <iframe width="560" height="315" src="https://player.pbs.org/viralplayer/3085363248/" allowfullscreen allow="encrypted-media" style="border: 0;"></iframe></h4></div>
-      </li> <br><br> 
-      <li>
-      <div><h4><b>Our news interview at WDBJ7 - <a href="https://www.wdbj7.com/2023/05/01/virginia-tech-research-aims-reduce-toxic-language-artificial-intelligence/">“Virginia Tech research aims to reduce toxic language from artificial intelligence”</a></b></h4></div>
-      </li>  
-    </ul>    
-    </div>
-    </div>  
-    </div>
-    </div>
-    </div>
-    
-    <div id="section1" class="container-fluid">
-    <h3>Publications</h3>
-    <div class="panel panel-info" style="margin-right:20px">
-    <div class="panel-body">
-    <div class="row" >
-    <div class="col-md-12">
-    <h5>Ph.D. Publications</h4>
-    <ul>
-      <li>
-      <div><strong>A First Look at Toxicity Injection Attacks on Open-domain Chatbots</strong>
-      <br>
-      Aravind Cheruvu, Connor Weeks, Sifat Muhammad Abdullah, Shravya Kanchi, Daphne Yao, and Bimal Viswanath  
-      <br>ACSAC 2023, Austin, Texas, December 2023.<br>
-      <a href="./Toxicity_injection_acsac_paper.pdf"><span class="label label-default">PDF</span></a> <a href="https://github.com/secml-lab-vt/Chatbot-Toxicity-Injection/"><span class="label label-default">Code and dataset</span></a>
+      <div class="col-sm-9" style="padding-top: 20px; padding-right: 100px; padding-left: 0px;">
+        <div id="section0" class="container-fluid">
+          <h3 style="color: #ffffff;">About Me</h3>
+          <div class="panel panel-info" style="margin-right:20px ; text-align: justify;">
+            <div class="panel-body">
+              <p>I am Aravind Cheruvu, a graduate student (MS + Ph.D.) from the Dept. of C.S. at Virginia Tech. I am advised by <a href="https://people.cs.vt.edu/vbimal/">Dr. Bimal Viswanath</a>. <br> I look into the security aspects of Generative AI models. I have experience working with GANs, and diffusion models in the vision domain and state-of-the-art Large language models (LLMs) in the text domain. I am currently investigating toxicity injection attacks and mitigation in open-domain chatbots. <br>
+                <br> I have completed my Bachelors in Information Technology in 2016 from VNR VJIET, Hyderabad (affliated to JNTU) where I have gained research experience in the areas of Temporal Data Mining and Network Security. <br>
+                <br> Apart from my research experience, I have 4.5 years of work experience as a Oracle payroll implementation specialist at Deloitte Consulting. I have worked on several large scale projects with several US-based clients.
+              </p>
+              <br> Check out my <a href="./Resume.pdf">resume</a> here. <br>
+            </div>
+          </div>
+        </div>
+        <div id="section1" class="container-fluid">
+          <h3 style="color: #ffffff;">Latest News</h3>
+          <div class="panel panel-info" style="margin-right:20px">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <ul>
+                    <li>
+                      <div>Received <b>"Pratt Fellowship"</b> from the Department of Computer Science. </div>
+                    </li>
+                    <li>
+                      <div>Awarded with <b>CCI SWVA Cyber Innovation Scholarship</b> from Commonwealth Cyber Initiative (CCI) for FY 23 AND 24.</div>
+                    </li>
+                    <li>
+                      <div>Received <b>“Best Poster award at CCI researcher showcase” - <a href="https://news.vt.edu/articles/2023/04/future-cybersecurity-leaders-showcase-research.html"> Future cybersecurity leaders showcase research</a>
+                        </b>
+                      </div>
+                    </li>
+                    <li>
+                      <div>Our news interview at WDBJ7 - <a href="https://www.wdbj7.com/2023/05/01/virginia-tech-research-aims-reduce-toxic-language-artificial-intelligence/"><b>“Virginia Tech research aims to reduce toxic language from artificial intelligence.”</a></b></div>
+                    </li>
+                     <li>
+                      <div>Our news interview to VPM News Focal Point<a href="https://www.pbs.org/video/artificial-intelligence-what-are-the-risks-and-benefits-kaz2/"><b>“Artificial intelligence: What are the risks and benefits?”</a></b></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="section2" class="container-fluid">
+          <h3 style="color: #ffffff;">Publications</h3>
+          <div class="panel panel-info" style="margin-right:20px">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <h5>Ph.D. Publications </h4>
+                    <ul>
+                      <li>
+                        <div>
+                          <strong>A First Look at Toxicity Injection Attacks on Open-domain Chatbots</strong>
+                          <br> Aravind Cheruvu, Connor Weeks, Sifat Muhammad Abdullah, Shravya Kanchi, Daphne Yao, and Bimal Viswanath <br>ACSAC 2023, Austin, Texas, December 2023. <br>
+                          <a href="./Toxicity_injection_acsac_paper.pdf">
+                            <span class="label label-default">PDF</span>
+                          </a>
+                          <a href="https://github.com/secml-lab-vt/Chatbot-Toxicity-Injection/">
+                            <span class="label label-default">Code and dataset</span>
+                          </a>
+                        </div>
+                        <br>
+                      </li>
+                      <li>
+                        <div>
+                          <strong>An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape</strong>
+                          <br> Sifat Muhammad Abdullah, Aravind Cheruvu, Shravya Kanchi, Taejoong Chung, Peng Gao, Murtuza Jadliwala and Bimal Viswanath <br>IEEE S&P (Oakland) 2024, San Francisco, CA, May 2024. <br>
+                          <a href="https://arxiv.org/abs/2404.16212">
+                            <span class="label label-default">PDF</span>
+                          </a>
+                          <a href="https://github.com/secml-lab-vt/EvolvingThreat-DeepfakeImageDetect">
+                            <span class="label label-default">Code and dataset</span>
+                          </a>
+                        </div>
+                        <br>
+                      </li>
+                    </ul>
+                    <h5>Prior Publications </h4>
+                      <ul>
+                        <li>
+                          <div>
+                            <strong>Estimating temporal pattern bounds using negative support computations</strong>
+                            <br> Aravind Cheruvu, V Radhakrishna <br> International Conference on Engineering & MIS 2016 <br>
+                          </div>
+                          <br>
+                        </li>
+                        <li>
+                          <div>
+                            <strong>VRKSHA: A novel multi-tree based sequential approach for seasonal pattern mining</strong>
+                            <br> Shadi Aljawarneh, V Radhakrishna, Aravind Cheruvu <br> International Conference on Engineering & MIS 2018 <br>
+                          </div>
+                          <br>
+                        </li>
+                        <li>
+                          <div>
+                            <strong>Feature clustering for anomaly detection using improved fuzzy membership function</strong>
+                            <br> Gunupudi Rajesh Kumar, Nimmala Mangathayaru, Gugulothu Narsimha, Aravind Cheruvu <br> International Conference on Engineering & MIS 2018 <br>
+                          </div>
+                          <br>
+                        </li>
+                        <li>
+                          <div>
+                            <strong>A dissimilarity measure for mining similar temporal association patterns</strong>
+                            <br> Vangipuram Radhakrishna, PV Kumar, Vinjamuri Janaki, Aravind Cheruvu <br>IADIS International Journal on Computer Science and Information Systems 2017 <br>
+                          </div>
+                          <br>
+                        </li>
+                      </ul> for more publication list refer to my Google Scholar <b>
+                        <a href="https://scholar.google.com/citations?user=NGDsIKMAAAAJ&hl=en">link</a>. </b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="section3" class="container-fluid">
+          <h3 style="color: #ffffff;">Education</h3>
+          <div class="panel panel-info" style="margin-right:20px">
+            <div class="panel-body">
+              <!-- Section: Timeline -->
+              <section class="py-5">
+                <ul class="timeline">
+                  <li class="timeline-item mb-5">
+                    <h4 class="fw-bold">Virginia Polytechnic Institute And State University (Virginia Tech)</h4>
+                    <p class="mb-2 fw-bold" style="color:#ab6f00">
+                      <b>Ph.D. in computer Science (M.S. along the way)</b>
+                    </p>
+                    <p class="mb-2 fw-bold">
+                      <b>Aug 2021 - Present</b>
+                    </p>
+                    <p>
+                      <b>CGPA: </b>3.71 <sup>*</sup>
+                    </p>
+                    <p>
+                      <b>Graduate courses:</b> Data Analytics, Deep Learning, Hot Topics in Security and AI, Theory of Algorithms, Advanced Machine Learning, Security risks of Generative AI
+                    </p>
+                  </li>
+                  <li class="timeline-item mb-5">
+                    <h4 class="fw-bold">Jawaharlal Nehru Technological University (VNR VJIET)</h4>
+                    <p class="mb-2 fw-bold" style="color:#ab6f00">
+                      <b>Bachelors in Information Technology</b>
+                    </p>
+                    <p class="mb-2 fw-bold">
+                      <b>Sep 2012 - May 2016</b>
+                    </p> CGPA: 8.51/10.0 <b style="color:#ab6f00">"Gold Medal for best outgoing student from the Department of I.T."</b>
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <!-- Section: Timeline -->
+            </div>
+          </div>
+        </div>
+        <div id="section4" class="container-fluid">
+          <h3 style="color: #ffffff;">Achievements</h3>
+          <div class="panel panel-info" style="margin-right:20px">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <ul>
+                    <li>
+                      <div>Received <b>"Pratt Fellowship"</b> from the Department of Computer Science. </div>
+                    </li>
+                    <li>
+                      <div>
+                        <b>“Best Poster award at CCI researcher showcase” - <a href="https://news.vt.edu/articles/2023/04/future-cybersecurity-leaders-showcase-research.html"> Future cybersecurity leaders showcase research</a>
+                        </b>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="section5" class="container-fluid">
+          <h3 style="color: #ffffff;">Skills</h3>
+          <div class="panel panel-info" style="margin-right:20px">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <ul>
+                    <li>
+                      <b>Machine Learning tools:</b> GANs (StyleGAN), Diffusion models (Stable Diffusion), Large language Models (LLAMA2, FALCON, Vicuna, FLAN)
+                    </li>
+                    <li>
+                      <b>Machine Learning libraries:</b> Huggingface, Large language Models,PyTorch, Numpy, Scikit-Learn, Pandas
+                    </li>
+                    <li>
+                      <b>Programming Languages:</b> Python, Java, C, C++, HTML/CSS
+                    </li>
+                    <li>
+                      <b>Developer Tools:</b> SQL Developer, VS Code, Eclipse, Netbeans, Android Studio, Weka
+                    </li>
+                    <li>
+                      <b>Technologies/Frameworks:</b> Linux, GitHub, Java Swing, AWT
+                    </li>
+                    <li>
+                      <b>Oracle Tools/Software:</b> Oracle SQL, Oracle HCM Cloud HR And Payroll Module, Payroll Parallel/Reconciliation Tool (Data Analysis), HCM Extracts, Oracle BI Reports, Fast Formulas
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="section6" class="container-fluid">
+          <h3 style="color: #ffffff;">Work Experience</h3>
+          <div class="panel panel-info" style="margin-right:20px; text-align: justify;">
+            <div class="panel-body">
+              <!-- Section: Timeline -->
+              <section class="py-5">
+                <ul class="timeline">
+                  <li class="timeline-item mb-5">
+                    <h4 class="fw-bold">Deloitte Consulting</h4>
+                    <p class="mb-2 fw-bold">Certified Techno-Functional payroll consultant with 4.5 years of experience in RICEF delivery and Payroll data analysis working for many US based large scale clients in the Financial, Health, Security and Government sectors.</p>
+                    <p class="mb-2 fw-bold" style="color:#ab6f00">
+                      <b>Senior Consultant</b>
+                    </p>
+                    <p class="mb-2 fw-bold">
+                      <b>Jun 2021 - Jul 2021</b>
+                    </p>
+                    <p>Planned and executed Payroll compare and Provider Compensation compare cycles for Healthcare client with 120k+ workforce using a custom tool designed to compare compensation rules for providers pay between Legacy and test system.</p>
+                    <p class="mb-2 fw-bold" style="color:#ab6f00">
+                      <b>Consultant</b>
+                    </p>
+                    <p class="mb-2 fw-bold">
+                      <b>Sep 2018 - Jun 2021</b>
+                    </p>
+                    <p>
+                      <b>Payroll Reconciliation:</b> Led planning and execution of Payroll Compare cycles to analyze $MM payroll data working closely with multiple stakeholders, identify system implementation defects, Go-Live and Post Production impacts mitigating risks of Production Go-Live.
+                    </p>
+                    <p>Developed and streamlined Payroll Compare Tool which uses payroll run data between Legacy and simulated Test systems to produce Payroll Compare reports and Executive Dashboards to extensively perform Payroll data analysis and understand system quality.</p>
+                    <p>
+                      <b>Payroll RICEF:</b> Supported payroll configuration, Coordinated and executed SIT and UAT testing cycles and proposed functional design solutions for nearly 30 RICEF objects.
+                    </p>
+                    <p class="mb-2 fw-bold" style="color:#ab6f00">
+                      <b>Business Analyst</b>
+                    </p>
+                    <p class="mb-2 fw-bold">
+                      <b>Dec 2016 - Aug 2018</b>
+                    </p>
+                    <p>
+                      <b>Technical Developer:</b> Worked as a Technical team member implementing key out-of-box integrations using HCM Extracts, BI Publisher Reports and developed Payroll Fast Formulas.
+                    </p>
+                  </li>
+                  <li class="timeline-item mb-5">
+                    <h4 class="fw-bold">Tata Consultancy Services</h4>
+                    <p class="mb-2 fw-bold" style="color:#ab6f00">
+                      <b>Assistant System Engineer - Trainee</b>
+                    </p>
+                    <p class="mb-2 fw-bold">
+                      <b>Jun 2016 - Sep 2016</b>
+                    </p>
+                    <p>Trained in E-Business Suite, Oracle Business Intelligence EE and Oracle Data Integrator tools.</p>
+                  </li>
+                </ul>
+              </section>
+              <!-- Section: Timeline -->
+            </div>
+          </div>
+        </div>
+        <div id="section7" class="container-fluid">
+          <h3 style="color: #ffffff;">Videos</h3>
+          <div id="videoCarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+              <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#videoCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="embed-responsive">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y9FTew96mxo?si=YqeYCBQf6z4lAfwW" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="item">
+                <div class="embed-responsive">
+                  <iframe class="embed-responsive-item" src="https://player.pbs.org/viralplayer/3085363248/" allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#videoCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#videoCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
       </div>
-      <br>
-      </li>
-      <li>
-      <div><strong>An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape</strong>
-      <br>
-     Sifat Muhammad Abdullah, Aravind Cheruvu, Shravya Kanchi, Taejoong Chung, Peng Gao, Murtuza Jadliwala and Bimal Viswanath  
-      <br>IEEE S&P (Oakland) 2024, San Francisco, CA, May 2024.<br>
-      <a href="https://arxiv.org/abs/2404.16212"><span class="label label-default">PDF</span></a> <a href="https://github.com/secml-lab-vt/EvolvingThreat-DeepfakeImageDetect"><span class="label label-default">Code and dataset</span></a>
-      </div>
-      <br>
-      </li>  
-    </ul>    
-<h5>Prior Publications</h4> 
-    <ul>        
-      <li>
-      <div><strong>Estimating temporal pattern bounds using negative support computations</strong>
-      <br>
-      Aravind Cheruvu, V Radhakrishna 
-      <br> International Conference on Engineering & MIS 2016<br>
-      </div>
-      <br>
-      </li>     
-      <li>
-      <div><strong>VRKSHA: A novel multi-tree based sequential approach for seasonal pattern mining</strong>
-      <br>
-      Shadi Aljawarneh, V Radhakrishna, Aravind Cheruvu 
-      <br> International Conference on Engineering & MIS 2018<br>
-      </div>
-      <br>
-      </li>   
-      <li>
-      <div><strong>Feature clustering for anomaly detection using improved fuzzy membership function</strong>
-      <br>
-      Gunupudi Rajesh Kumar, Nimmala Mangathayaru, Gugulothu Narsimha, Aravind Cheruvu 
-      <br> International Conference on Engineering & MIS 2018<br>
-      </div>
-      <br>
-      </li>     
-      <li>
-      <div><strong>A dissimilarity measure for mining similar temporal association patterns</strong>
-      <br>
-      Vangipuram Radhakrishna, PV Kumar, Vinjamuri Janaki, Aravind Cheruvu
-
-      <br>IADIS International Journal on Computer Science and Information Systems 2017<br>
-      </div>
-      <br>
-      </li>                         
-    </ul>
-    for more publication list refer to my Google Scholar <b><a href="https://scholar.google.com/citations?user=NGDsIKMAAAAJ&hl=en">link</a></b>.
     </div>
-    </div>  
-    </div>
-    </div>
-    </div>
-
-    <div id="section2" class="container-fluid">
-    <h3>Education</h3>
-    <div class="panel panel-info" style="margin-right:20px">
-    <div class="panel-body">
-<!-- Section: Timeline -->
-<section class="py-5">
-  <ul class="timeline">
-    <li class="timeline-item mb-5">
-      <h4 class="fw-bold">Virginia Polytechnic Institute And State University (Virginia Tech)</h4>
-      <p class="mb-2 fw-bold" style="color:#ab6f00"><b>Ph.D. in computer Science (M.S. along the way)</b></p>
-      <p class="mb-2 fw-bold"><b>Aug 2021 - Present</b></p>
-       <p><b>CGPA: </b>3.71
-        <sup>*</sup>
-       </p>
-<p><b>Graduate courses:</b> Data Analytics, Deep Learning, Hot Topics in Security and AI, Theory of Algorithms, Advanced Machine Learning, Security risks of Generative AI</p>
-    </li>
-
-    <li class="timeline-item mb-5">
-      <h4 class="fw-bold">Jawaharlal Nehru Technological University (VNR VJIET)</h4>
-      <p class="mb-2 fw-bold" style="color:#ab6f00"><b>Bachelors in Information Technology</b></p>
-      <p class="mb-2 fw-bold"><b>Sep 2012 - May 2016</b></p>
-
-      CGPA: 8.51/10.0 
-      <b style="color:#ab6f00">"Gold Medal for best outgoing student from the Department of I.T."</b>
-
-      </p>
-    </li>
-  </ul>
-</section>
-<!-- Section: Timeline -->
-    </div>
-    </div> 
-    </div>
-    <div id="section3" class="container-fluid">
-    <h3>Work Experience</h3>
-    <div class="panel panel-info" style="margin-right:20px; text-align: justify;">
-    <div class="panel-body">
-<!-- Section: Timeline -->
-<section class="py-5">
-  <ul class="timeline">
-    <li class="timeline-item mb-5">
-      <h4 class="fw-bold">Deloitte Consulting</h4>
-      <p class="mb-2 fw-bold">Certified Techno-Functional payroll consultant with 4.5 years of experience in RICEF delivery and Payroll data analysis working for many US based large scale clients in the Financial, Health, Security and Government sectors.</p>
-      <p class="mb-2 fw-bold" style="color:#ab6f00"><b>Senior Consultant</b></p>
-      <p class="mb-2 fw-bold"><b>Jun 2021 - Jul 2021</b></p>
-<p>Planned and executed Payroll compare and Provider Compensation compare cycles for Healthcare client with 120k+ workforce using a custom tool designed to compare compensation rules for providers pay between Legacy and test system.</p>
-      <p class="mb-2 fw-bold" style="color:#ab6f00"><b>Consultant</b></p>
-      <p class="mb-2 fw-bold"><b>Sep 2018 - Jun 2021</b></p>
-<p><b>Payroll Reconciliation:</b> Led planning and execution of Payroll Compare cycles to analyze $MM payroll data working closely with multiple stakeholders, identify system implementation defects, Go-Live and Post Production impacts mitigating risks of Production Go-Live.</p>
-
-<p>Developed and streamlined Payroll Compare Tool which uses payroll run data between Legacy and simulated Test systems to produce Payroll Compare reports and Executive Dashboards to extensively perform Payroll data analysis and understand system quality.</p>
-
-<p><b>Payroll RICEF:</b> Supported payroll configuration, Coordinated and executed SIT and UAT testing cycles and proposed functional design solutions for nearly 30 RICEF objects.</p>
-
-      <p class="mb-2 fw-bold" style="color:#ab6f00"><b>Business Analyst</b></p>
-      <p class="mb-2 fw-bold"><b>Dec 2016 - Aug 2018</b></p>
-<p><b>Technical Developer:</b> Worked as a Technical team member implementing key out-of-box integrations using HCM Extracts, BI Publisher Reports and developed Payroll Fast Formulas.
-</p>
-    </li>
-
-   <li class="timeline-item mb-5">
-      <h4 class="fw-bold">Tata Consultancy Services</h4>
-      <p class="mb-2 fw-bold" style="color:#ab6f00"><b>Assistant System Engineer - Trainee</b></p>
-      <p class="mb-2 fw-bold"><b>Jun 2016 - Sep 2016</b></p>
-<p>Trained in E-Business Suite, Oracle Business Intelligence EE and Oracle Data Integrator tools.</p>
-    </li>
-  </ul>
-</section>
-<!-- Section: Timeline -->
-    </div>
-    </div> 
-    </div>
-
-
-    <div id="section4" class="container-fluid">
-    <h3>Achievements</h3>
-    <div class="panel panel-info" style="margin-right:20px">
-    <div class="panel-body">
-    <div class="row" >
-    <div class="col-md-12">
-    <ul>
-      <li>
-      <div>Received <b>"Pratt Fellowship"</b> from the Department of Computer Science.</div>
-      </li>   
-      <li>
-      <div><b>“Best Poster award at CCI researcher showcase” - <a href="https://news.vt.edu/articles/2023/04/future-cybersecurity-leaders-showcase-research.html"> Future cybersecurity leaders showcase research</a></b></div>
-      </li>  
-    </ul>    
-    </div>
-    </div>  
-    </div>
-    </div>
-    </div>
-
-
-    <div id="section5" class="container-fluid">
-    <h3>Skills</h3>
-    <div class="panel panel-info" style="margin-right:20px">
-    <div class="panel-body">
-    <div class="row" >
-    <div class="col-md-12">
-    <ul>
-      <li>
-        <b>Machine Learning tools:</b> GANs (StyleGAN), Diffusion models (Stable Diffusion), Large language Models (LLAMA2, FALCON, Vicuna, FLAN)
-      </li>  
-      <li>
-      <b>Machine Learning libraries:</b> Huggingface, Large language Models,PyTorch, Numpy, Scikit-Learn, Pandas
-      </li> 
-      <li>
-        <b>Programming Languages:</b> Python, Java, C, C++, HTML/CSS
-      </li>   
-      <li>
-      <b>Developer Tools:</b> SQL Developer, VS Code, Eclipse, Netbeans, Android Studio, Weka
-      </li>  
-      <li>
-<b>Technologies/Frameworks:</b> Linux, GitHub, Java Swing, AWT
-      </li> 
-      <li>
-<b>Oracle Tools/Software:</b> Oracle SQL, Oracle HCM Cloud HR And Payroll Module, Payroll Parallel/Reconciliation Tool (Data Analysis), HCM Extracts, Oracle BI Reports, Fast Formulas</li> 
-    </ul>    
-    </div>
-    </div>  
-    </div>
-    </div>
-    </div>
-</div>
-
-</body>
+  </body>
 </html>
