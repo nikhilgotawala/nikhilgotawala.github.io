@@ -14,7 +14,7 @@ My expertise lies in conversational AI systems, particularly chatbots. I am curr
 
 Beyond my research, I have 4.5 years of consulting experience, during which I worked on several large-scale projects with US-based clients. At Deloitte Consulting, I specialized as an Oracle Payroll Implementation Specialist. I completed my Bachelor's in Information Technology in 2016 from VNR VJIET, Hyderabad (affiliated with JNTU), where I gained research experience in Temporal Data Mining and Network Security.
 
-**PS: I am actively seeking research collaborations roles in generative AI and security. If you are interested, please drop me an email.**
+**PS: I am actively seeking research collaborations in generative AI and security. If you are interested, please drop me an email.**
 
 📄 **[Download my latest resume]({{ base_path }}/files/Aravind_Cheruvu_Resume_Latest.pdf)** - Updated with current research and achievements.
 
