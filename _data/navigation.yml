@@ -1,0 +1,34 @@
+# Dynamic navigation based on content - order reflects the user's academic journey
+#
+# Navigation is optimized for academic visitors and potential collaborators
+# Each section represents a key aspect of Aravind's academic and professional profile
+
+main:
+  - title: "About Me"
+    url: /
+    description: "Personal introduction and latest news"
+
+  - title: "Publications"
+    url: /publications/
+    description: "Research papers and patents"
+
+  - title: "Education"
+    url: /education/
+    description: "Academic background and qualifications"
+
+  - title: "Experience"
+    url: /experience/
+    description: "Professional work experience"
+
+  - title: "Skills"
+    url: /skills/
+    description: "Technical expertise and competencies"
+
+  - title: "Talks"
+    url: /talks/
+    description: "Presentations and media coverage"
+
+  - title: "Resume"
+    url: /files/Aravind_Cheruvu_Resume_Latest.pdf
+    description: "Download latest resume"
+    external: true

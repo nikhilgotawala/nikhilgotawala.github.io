@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://0.0.0.0:4000/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/education/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/experience/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/portfolio/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/publications/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/skills/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/talks/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/files/Aravind_Cheruvu_Resume_Latest.pdf</loc>
+<lastmod>2025-07-01T11:30:53-04:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/files/Toxicity_injection_acsac_paper.pdf</loc>
+<lastmod>2025-05-21T13:34:21-04:00</lastmod>
+</url>
+</urlset>
