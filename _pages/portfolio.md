@@ -13,6 +13,22 @@ author_profile: true
 
 ## Research Projects
 
+### TuneShield: Mitigating Toxicity in Conversational AI
+**Status:** Submitted to arXiv (July 2025)  
+**Description:** Defense framework designed to mitigate toxicity during chatbot fine-tuning while preserving conversational quality. Leverages LLM-based toxicity classification and generates synthetic 'healing data' to reinforce desirable behavior.  
+**Technologies:** Python, PyTorch, LLMs, Transformers, Fine-tuning  
+**Links:** [arXiv](https://arxiv.org/abs/2507.05660) | [PDF](https://arxiv.org/abs/2507.05660)
+
+---
+
+### Taming Data Challenges in ML-based Security Tasks
+**Status:** Submitted to arXiv (July 2025)  
+**Description:** Comprehensive study on using Generative AI to address data challenges in ML-based security tasks. Introduces novel GenAI scheme "Nimai" for controlled data synthesis and evaluates across 7 diverse security tasks.  
+**Technologies:** Python, Generative AI, Tabular Data Synthesis, Security ML  
+**Links:** [arXiv](https://arxiv.org/abs/2507.06092) | [PDF](https://arxiv.org/html/2507.06092v1)
+
+---
+
 ### Toxicity Injection Attacks on Chatbots
 **Status:** Published at ACSAC 2023  
 **Description:** First comprehensive study on toxicity injection attacks against open-domain chatbots. Developed novel attack methods and evaluated defenses across multiple state-of-the-art conversational AI systems.  

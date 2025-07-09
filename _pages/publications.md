@@ -13,6 +13,16 @@ author_profile: true
 
 ## Ph.D. Publications
 
+**TuneShield: Mitigating Toxicity in Conversational AI while Fine-tuning on Untrusted Data**  
+**Aravind Cheruvu**, Shravya Kanchi, Sifat Muhammad Abdullah, Nicholas Kong, Daphne Yao, Murtuza Jadliwala, and Bimal Viswanath  
+*arXiv preprint arXiv:2507.05660, July 2025.*  
+[PDF](https://arxiv.org/abs/2507.05660) | [arXiv](https://arxiv.org/abs/2507.05660)
+
+**Taming Data Challenges in ML-based Security Tasks: Lessons from Integrating Generative AI**  
+Shravya Kanchi, Neal Mangaokar, **Aravind Cheruvu**, Sifat Muhammad Abdullah, Shirin Nilizadeh, Atul Prakash, and Bimal Viswanath  
+*arXiv preprint arXiv:2507.06092, July 2025.*  
+[PDF](https://arxiv.org/html/2507.06092v1) | [arXiv](https://arxiv.org/abs/2507.06092)
+
 **A First Look at Toxicity Injection Attacks on Open-domain Chatbots**  
 **Aravind Cheruvu**, Connor Weeks, Sifat Muhammad Abdullah, Shravya Kanchi, Daphne Yao, and Bimal Viswanath  
 *ACSAC 2023, Austin, Texas, December 2023.*  
