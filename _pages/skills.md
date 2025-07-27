@@ -24,7 +24,7 @@ author_profile: true
 ---
 
 ### Research Tools & Equipment
-- **Characterization:**  optical microscopes, SEM
+- **Characterization:**  optical microscopes, SEM, EBSD
 - **Testing Equipment:** Tensile testing, hardness testers
 - **Software:** Image analysis software, statistical analysis tools
 
