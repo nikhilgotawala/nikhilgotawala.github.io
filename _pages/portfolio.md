@@ -24,7 +24,7 @@ author_profile: true
 ### Dissimilar Friction Stir Welding (FSW) Modeling
 **Status:** Completed during Ph.D. at IIT Bombay  
 **Description:** Developed coupled CFD and VOF-based model for dissimilar friction stir welding. Modeled phase transformations and IMC growth using diffusion and thermodynamic analysis.  
-**Technologies:** CFD, VOF methodology, Thermodynamic modeling 
+**Technologies:** CFD, VOF methodology, Thermodynamic modeling
 **Impact:** Published multiple high-impact journal papers on dissimilar FSW
 
 ---
