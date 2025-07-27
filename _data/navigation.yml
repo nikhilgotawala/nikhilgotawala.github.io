@@ -27,8 +27,3 @@ main:
   - title: "Talks"
     url: /talks/
     description: "Presentations and media coverage"
-
-  - title: "Resume"
-    url: /Cv Nikhil Gotawala.pdf
-    description: "Download latest resume"
-    external: true

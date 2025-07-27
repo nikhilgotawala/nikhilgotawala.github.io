@@ -16,8 +16,6 @@ My current work at Virginia Tech focuses on **additive friction stir deposition 
 
 **PS: I am actively seeking research collaborations in solid-state manufacturing and materials processing. If you are interested, please drop me an email.**
 
-📄 **[Download my latest resume]({{ base_path }}/Cv Nikhil Gotawala.pdf)** - Updated with current research and achievements.
-
 ## Latest News
 
 * Successfully completed Ph.D. in Mechanical Engineering from IIT Bombay with CGPA 9.0/10.
