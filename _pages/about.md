@@ -12,7 +12,7 @@ I am a Postdoctoral Researcher in the Department of Materials Science and Engine
 
 My expertise lies in **numerical modeling** and **computational material science**. I specialize in developing advanced CFD-based numerical models for solid-state manufacturing processes, investigating microstructure evolution, phase transformations, and material flow behavior. My research combines multi-physics modeling with experimental characterization to understand the underlying mechanisms governing material behavior in solid-state processes.
 
-My current work at Virginia Tech focuses on **additive friction stir deposition (AFSD)**, where I develop 3D CFD-based thermo-mechanical models to predict material flow paths and thermomechanical properties. I also investigate heterogeneous lamellar microstructures and tool wear in high-strength alloys.
+My current work at Virginia Tech focuses on **additive friction stir deposition (AFSD)**, where I develop 3D CFD-based thermo-mechanical models to predict material flow paths and thermomechanical properties.
 
 
 ## Latest News
