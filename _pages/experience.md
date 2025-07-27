@@ -17,7 +17,7 @@ author_profile: true
 
 - **Supervisor:** Prof. Hang Yu
 - **Research Focus:** Additive friction stir deposition (AFSD) and solid-state manufacturing processes
-- **Projects:** 3D CFD-based thermo-mechanical modeling, material flow analysis, tool wear investigation
+- **Projects:** 3D CFD-based thermo-mechanical modeling, material flow analysis
 - **Achievements:** Published multiple high-impact journal papers in materials science
 
 ---
