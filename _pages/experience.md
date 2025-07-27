@@ -11,67 +11,62 @@ author_profile: true
 
 ## Research Experience
 
-### Virginia Tech - Security & ML Lab
-**Graduate Research Assistant**  
-*Aug 2021 - Present*
+### Virginia Tech - Materials Science and Engineering
+**Postdoctoral Researcher**  
+*Mar 2022 - Present*
 
-- **Research Focus:** Security and Generative AI under the supervision of Dr. Bimal Viswanath
-- **Projects:** Toxicity injection attacks on chatbots, deepfake detection, LLM safety alignment
-- **Achievements:** Published papers at top-tier conferences (ACSAC 2023, IEEE S&P 2024)
-
----
-
-### Deloitte Consulting
-
-#### Senior Consultant
-*Jun 2021 - Jul 2021*
-
-- Certified Oracle HCM Cloud transformation consultant with 4.5 years of demonstrated techno-functional expertise specialized in capturing business use cases, understanding requirements, and performing fit-gap analysis to design scalable 50+ Technical RICEF objects and business process solutions.
-- Strategized and executed Payroll Parallel/Reconciliation testing cycles for 5 successful client implementations to uncover system implementation defects, understand Financial and business process impacts of Go-live and Post Production, and recommend mitigation strategies.
+- **Supervisor:** Prof. Hang Yu
+- **Research Focus:** Additive friction stir deposition (AFSD) and solid-state manufacturing processes
+- **Projects:** 3D CFD-based thermo-mechanical modeling, material flow analysis, tool wear investigation
+- **Achievements:** Published multiple high-impact journal papers in materials science
 
 ---
 
-#### Consultant
-*Sep 2018 - Jun 2021*
+### IIT Bombay - Mechanical Engineering
+**Ph.D. Research**  
+*Jan 2017 - Dec 2021*
 
-**Payroll Reconciliation:**
-- Led planning and execution of Payroll Compare cycles for multiple clients to perform trend analysis of $MM employee payrolls to test data integrity and understand Go-Live and Post-Production impacts of Payroll, Benefits, Time(TL), Absence, and Compensation systems using SQL and Excel analytics.
-- Developed and streamlined Payroll Compare Analysis and Executive Reporting Tool which extracts and uses HR and Payroll run data between Legacy and simulated Test systems to produce Payroll Compare reports and Executive Dashboards to extensively perform Payroll data analysis.
-
-**Payroll RICEF:**
-- Supported Payroll BR100 configurations, Coordinated and executed SIT and UAT testing cycles.
-
----
-
-#### Business Analyst
-*Dec 2016 - Aug 2018*
-
-**Technical Developer:**
-- Worked as a Technical team member implementing key out-of-box integrations using HCM Extracts to Kronos and Benefits systems, BI Publisher Reports using eText and RTF templates and developed Payroll Fast Formulas.
+- **Supervisor:** Prof. Amber Shrivastava
+- **Research Focus:** Numerical modeling and microstructure evolution in friction stir welding
+- **Projects:** Coupled CFD and VOF-based modeling for dissimilar FSW, phase transformations analysis
+- **Achievements:** Successfully completed Ph.D. with CGPA 9.0/10
 
 ---
 
-### Tata Consultancy Services
+### National Centre for Aerospace Innovation and Research (NCAIR), IIT Bombay
+**Research Assistant**  
+*Jul 2016 - Dec 2016*
 
-#### Assistant System Engineer - Trainee
-*Jun 2016 - Sep 2016*
+- **Research Focus:** Friction effects on hot working of titanium alloy using Gleeble 3800 system
+- **Projects:** Investigation of material behavior under high-temperature conditions
 
-- Trained in E-Business Suite, Oracle Business Intelligence EE and Oracle Data Integrator tools.
+---
 
+## Teaching Experience
+
+### IIT Bombay - Mechanical Engineering
+**Teaching Assistant (TA)**  
+*2017 - 2021*
+
+- **ME338 (Manufacturing Process II):** Prepared tutorials and exams
+- **ME213 (Manufacturing Practice Lab):** Lead TA, taught CNC programming and simulator
+- **Responsibilities:** Assisted in course development, student mentoring, and laboratory instruction
+
+---
 
 ## Key Accomplishments
 
-### Client Impact
-- Successfully delivered 5+ Oracle HCM Cloud implementations for Fortune 500 clients
-- Managed $MM payroll systems with zero critical defects post-implementation
-- Designed and implemented 50+ technical RICEF objects
+### Research Impact
+- Published multiple high-impact journal papers in Materials Science and Engineering: A, Journal of Materials Science, and Journal of Manufacturing Processes
+- Developed advanced CFD models for additive friction stir deposition and dissimilar friction stir welding
+- Contributed to understanding of material flow and thermomechanical processing in solid-state manufacturing
 
 ### Technical Leadership
-- Led cross-functional teams for payroll reconciliation testing cycles
-- Developed automated tools for payroll comparison and executive reporting
-- Streamlined data analysis processes reducing manual effort by 60%
+- Led research projects in solid-state manufacturing processes
+- Mentored Ph.D. and M.S. students in data acquisition and analysis
+- Collaborated with interdisciplinary teams in materials science and mechanical engineering
 
-### Industry Recognition
-- Certified Oracle HCM Cloud transformation consultant
-- Expert in payroll parallel testing and reconciliation methodologies
-- Specialized in large-scale enterprise system implementations 
+### Academic Excellence
+- Completed Ph.D. with outstanding academic performance (CGPA 9.0/10)
+- Presented research at prestigious conferences including TMS Annual Meeting and Friction Stir Welding and Processing conferences
+- Established expertise in coupled numerical modeling and computational material science 

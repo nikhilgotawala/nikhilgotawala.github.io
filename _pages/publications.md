@@ -11,56 +11,98 @@ author_profile: true
 
 {% include base_path %}
 
-## Ph.D. Publications
+## Journal Publications
 
-**TuneShield: Mitigating Toxicity in Conversational AI while Fine-tuning on Untrusted Data**  
-**Aravind Cheruvu**, Shravya Kanchi, Sifat Muhammad Abdullah, Nicholas Kong, Daphne Yao, Murtuza Jadliwala, and Bimal Viswanath  
-*arXiv preprint arXiv:2507.05660, July 2025.*  
-[PDF](https://arxiv.org/abs/2507.05660) | [arXiv](https://arxiv.org/abs/2507.05660)
+**Phase transformation during friction stir processing of dual-phase 600 steel**  
+**Nikhil Gotawala**, Abhishek Wadighare, and Amber Shrivastava  
+*Journal of Materials Science 55, no. 10 (2020): 4464-4477.*  
+[DOI](https://doi.org/10.1007/s10853-019-04270-5)
 
-**Taming Data Challenges in ML-based Security Tasks: Lessons from Integrating Generative AI**  
-Shravya Kanchi, Neal Mangaokar, **Aravind Cheruvu**, Sifat Muhammad Abdullah, Shirin Nilizadeh, Atul Prakash, and Bimal Viswanath  
-*arXiv preprint arXiv:2507.06092, July 2025.*  
-[PDF](https://arxiv.org/html/2507.06092v1) | [arXiv](https://arxiv.org/abs/2507.06092)
+**Microstructural analysis and mechanical behavior of SS 304 and titanium joint from friction stir butt welding**  
+**Nikhil Gotawala**, and Amber Shrivastava  
+*Materials Science and Engineering: A 789 (2020): 139658.*  
+[DOI](https://doi.org/10.1016/j.msea.2020.139658)
 
-**A First Look at Toxicity Injection Attacks on Open-domain Chatbots**  
-**Aravind Cheruvu**, Connor Weeks, Sifat Muhammad Abdullah, Shravya Kanchi, Daphne Yao, and Bimal Viswanath  
-*ACSAC 2023, Austin, Texas, December 2023.*  
-[PDF]({{ base_path }}/files/Toxicity_injection_acsac_paper.pdf) | [Code and dataset](https://github.com/secml-lab-vt/Chatbot-Toxicity-Injection/) | [Video](https://www.youtube.com/watch?v=Y9FTew96mxo)
+**Analysis of material distribution in dissimilar friction stir welded joints of Al 1050 and copper**  
+**Nikhil Gotawala**, and Amber Shrivastava  
+*Journal of Manufacturing Processes 57 (2020): 725-736.*  
+[DOI](https://doi.org/10.1016/j.jmapro.2020.07.043)
 
-**An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape**  
-Sifat Muhammad Abdullah, **Aravind Cheruvu**, Shravya Kanchi, Taejoong Chung, Peng Gao, Murtuza Jadliwala and Bimal Viswanath  
-*IEEE S&P (Oakland) 2024, San Francisco, CA, May 2024.*  
-[PDF](https://arxiv.org/abs/2404.16212) | [Code and dataset](https://github.com/secml-lab-vt/EvolvingThreat-DeepfakeImageDetect)
+**Microstructure and texture evolution of complete Mg-3Al-0.2 Ce alloy blanks upon multi-pass friction stir processing with spiral strategy**  
+**Nikhil Gotawala**, Abhishek Kumar, Sushil Mishra, and Amber Shrivastava  
+*Materials Today Communications (2020): 101850.*  
+[DOI](https://doi.org/10.1016/j.mtcomm.2020.101850)
 
-## Prior Publications
+**Investigation of interface microstructure and mechanical properties of rotatory friction welded dissimilar aluminum-steel joints**  
+**Nikhil Gotawala**, and Amber Shrivastava  
+*Materials Science and Engineering: A (2021): 141900.*  
+[DOI](https://doi.org/10.1016/j.msea.2021.141900)
 
-**Using normal distribution to retrieve temporal associations by Euclidean distance**  
-**Aravind Cheruvu**, V Radhakrishna, N Rajasekhar  
-*2017 International Conference on Engineering & MIS (ICEMIS)*
+**Thermodynamics-based analysis of formation and growth of FeTi and β-Ti during friction stir welding of SS304 and pure titanium**  
+**Nikhil Gotawala**, and Amber Shrivastava  
+*Journal of Materials Science (2021): 1-19.*  
+[DOI](https://doi.org/10.1007/s10853-021-06491-z)
 
-**Estimating temporal pattern bounds using negative support computations**  
-**Aravind Cheruvu**, V Radhakrishna  
-*International Conference on Engineering & MIS 2016*
+**Solid-state depositions of multilayer SS304 by friction stir metal deposition**  
+**Nikhil Gotawala**, Neeraj Kumar Mishra, and Amber Shrivastava  
+*Materials Letters 314 (2022): 131881.*  
+[DOI](https://doi.org/10.1016/j.matlet.2022.131881)
 
-**VRKSHA: A novel multi-tree based sequential approach for seasonal pattern mining**  
-Shadi Aljawarneh, V Radhakrishna, **Aravind Cheruvu**  
-*International Conference on Engineering & MIS 2018*
+**X-ray tomography and characterization of dissimilar interface revealing the interplay of intermetallics, interlocking, and voids on joint strength of Al6061 and AZ31Mg dissimilar friction stir welds**  
+**Nikhil Gotawala**, and Amber Shrivastava  
+*CIRP Journal of Manufacturing Science and Technology 44 (2023): 70-81.*  
+[DOI](https://doi.org/10.1016/j.cirpj.2023.05.002)
 
-**Feature clustering for anomaly detection using improved fuzzy membership function**  
-Gunupudi Rajesh Kumar, Nimmala Mangathayaru, Gugulothu Narsimha, **Aravind Cheruvu**  
-*International Conference on Engineering & MIS 2018*
+**Material flow path and extreme thermomechanical processing history during additive friction stir deposition**  
+**Nikhil Gotawala**, and Hang Z. Yu  
+*Journal of Manufacturing Processes 101 (2023): 114-127.*  
+[DOI](https://doi.org/10.1016/j.jmapro.2023.05.095)
 
-**A dissimilarity measure for mining similar temporal association patterns**  
-Vangipuram Radhakrishna, PV Kumar, Vinjamuri Janaki, **Aravind Cheruvu**  
-*IADIS International Journal on Computer Science and Information Systems 2017*
+## Conference Publications
 
-## Patents
+**Investigation of interfacial diffusion during dissimilar friction stir welding**  
+**Nikhil Gotawala**, and Amber Shrivastava  
+*Friction Stir Welding and Processing X, pp. 109-119. Springer, Cham, 2019.*  
+[DOI](https://doi.org/10.1007/978-3-030-05752-7_11)
 
-**Indian Patent No. 387074 - System and Method for Diagnosis of Diseases From Medical Images**  
-**Filing date:** 05/14/2020  
-A novel machine learning implementation of Covid-19 detection system using Chest X-rays.
+**Analysis of Al 6061 and Mild Steel Joints from Rotary Friction Welding**  
+**Nikhil Gotawala**, and Amber Shrivastava  
+*TMS 2021 150th Annual Meeting & Exhibition Supplemental Proceedings, pp. 669-678. Springer International Publishing, 2021.*  
+[DOI](https://doi.org/10.1007/978-3-030-65261-6_60)
 
-**Indian Patent No. 397728 - System and Method to Generate Time-Profiled Temporal Pattern Tree**  
-**Filing date:** 12/03/2018  
-A novel Temporal Tree structure to find the Temporal Association rules. 
+**Effect of Diffusion on Intermetallics at Interface During Friction Stir Welding of Stainless Steel and Pure Titanium**  
+**Nikhil Gotawala**, and Amber Shrivastava  
+*Friction Stir Welding and Processing XI, pp. 135-146. Springer International Publishing, 2021.*  
+[DOI](https://doi.org/10.1007/978-3-030-65265-4_13)
+
+## Collaborative Publications
+
+**Defects, microstructure and mechanical behaviour upon multi-pass friction stir processing of magnesium alloy with spiral tool path**  
+Abhishek Kumar, **Nikhil Gotawala**, Sushil Mishra, and Amber Shrivastava  
+*CIRP Journal of Manufacturing Science and Technology 32 (2021): 170-178.*  
+[DOI](https://doi.org/10.1016/j.cirpj.2020.12.006)
+
+**Towards underwater additive manufacturing via additive friction stir deposition**  
+R. Joey Griffiths, **Nikhil Gotawala**, Greg D. Hahn, David Garcia, and Hang Z. Yu  
+*Materials & Design 223 (2022): 111148.*  
+[DOI](https://doi.org/10.1016/j.matdes.2022.111148)
+
+**Thermal prediction of additive friction stir deposition through Bayesian learning-enabled explainable artificial intelligence**  
+Zhu, Yunhui, Xiaofeng Wu, **Nikhil Gotawala**, David M. Higdon, and Z. Yu Hang  
+*Journal of Manufacturing Systems 72 (2024): 1-15.*  
+[DOI](https://doi.org/10.1016/j.jmsy.2023.10.015)
+
+**Additive Friction Stir Deposition of AA7050 Achieving Forging-Like Tensile Properties**  
+Greg D. Hahn, Kendall P. Knight, **Nikhil Gotawala**, and Hang Z. Yu  
+*Materials Science and Engineering: A*  
+[DOI](https://doi.org/10.1016/j.msea.2024.146268)
+
+**An exploratory study on miniaturized additive friction stir deposition**  
+Gottwald, Ryan B., **Nikhil Gotawala**, Donald J. Erb, and Z. Yu Hang  
+*Journal of Manufacturing Processes 126 (2024): 154-164.*  
+[DOI](https://doi.org/10.1016/j.jmapro.2024.07.076)
+
+**Shear-driven solid-state additive manufacturing of aerospace aluminum on impurity contaminated surfaces**  
+Wu, Xiaofeng, Abhishek Rastogi, **Nikhil Gotawala**, Mark A. Pandol, Yunhui Zhu, and Hang Z. Yu  
+*Materials & Design (2025): 114312.*  
+[DOI](https://doi.org/10.1016/j.matdes.2025.114312) 

@@ -13,46 +13,42 @@ author_profile: true
 
 ### Conference Presentations
 
-**A First Look at Toxicity Injection Attacks on Open-domain Chatbots**  
-*ACSAC 2023, Austin, Texas, December 2023*  
-[Video](https://www.youtube.com/watch?v=Y9FTew96mxo)
+**Investigation of interfacial diffusion during dissimilar friction stir welding**  
+*Friction Stir Welding and Processing X, Cham, Switzerland, 2019*
 
 ---
 
-**An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape**  
-*IEEE S&P (Oakland) 2024, San Francisco, CA, May 2024*
+**Analysis of Al 6061 and Mild Steel Joints from Rotary Friction Welding**  
+*TMS 2021 150th Annual Meeting & Exhibition, Virtual, 2021*
+
+---
+
+**Effect of Diffusion on Intermetallics at Interface During Friction Stir Welding of Stainless Steel and Pure Titanium**  
+*Friction Stir Welding and Processing XI, Virtual, 2021*
 
 ---
 
 ### Poster Presentations
 
-**Best Poster Award at CCI Researcher Showcase**  
-*Commonwealth Cyber Initiative, 2023*  
-[News Coverage](https://news.vt.edu/articles/2023/04/future-cybersecurity-leaders-showcase-research.html)
+**Material Flow and Thermomechanical Processing in Additive Friction Stir Deposition**  
+*Virginia Tech Materials Science and Engineering Symposium, 2023*
 
 ---
 
-### Media Interviews
+### Research Seminars
 
-**WDBJ7 News Interview**  
-*Topic: Virginia Tech research aims to reduce toxic language from artificial intelligence*  
-[Watch Interview](https://www.wdbj7.com/2023/05/01/virginia-tech-research-aims-reduce-toxic-language-artificial-intelligence/)
-
----
-
-**VPM News Focal Point Interview**  
-*Topic: Artificial intelligence - What are the risks and benefits?*  
-[Watch Interview](https://www.pbs.org/video/artificial-intelligence-what-are-the-risks-and-benefits-kaz2/)
+**Numerical Modeling and Microstructure Evolution in Friction Stir Welding**  
+*IIT Bombay Mechanical Engineering Department Seminar, 2021*
 
 ---
 
 ### Upcoming Talks
 
-*Looking for speaking opportunities in AI security, generative AI, and machine learning. Please reach out if you'd like me to present my research!*
+*Looking for speaking opportunities in solid-state manufacturing, materials science, and computational modeling. Please reach out if you'd like me to present my research!*
 
 ### Talk Topics I Cover
 
-- **AI Security & Safety**: Adversarial attacks on LLMs and conversational AI systems
-- **Generative AI**: Model customization, fine-tuning, and safety alignment
-- **Computer Vision**: Deepfake detection and generation techniques  
-- **Industry Applications**: Oracle HCM implementations and enterprise AI solutions 
+- **Solid-state Manufacturing**: Friction stir welding, additive friction stir deposition
+- **Computational Modeling**: CFD analysis, multi-physics simulation, material flow modeling
+- **Materials Science**: Microstructure evolution, phase transformations, mechanical properties
+- **Manufacturing Processes**: Process optimization, quality control, industrial applications 

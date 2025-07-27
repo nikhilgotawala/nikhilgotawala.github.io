@@ -266,7 +266,6 @@ DEPENDENCIES
   jekyll (~> 3.9)
   jekyll-feed
   jekyll-gist
-  jekyll-paginate
   jekyll-paginate-v2
   jekyll-redirect-from
   jekyll-seo-tag

@@ -1,63 +1,63 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Nikhil Gotawala",
+    "email": "nikhilgotawala@vt.edu",
+    "phone": "(+1) 540-824-9293",
+    "website": "https://nikhilgotawala.github.io",
+    "summary": "Postdoctoral Researcher in Materials Science and Engineering at Virginia Tech, specializing in solid-state manufacturing processes",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Blacksburg",
       "countryCode": "US",
-      "region": ""
+      "region": "Virginia"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=OanQKi0AAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": ""
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "nikhilgotawala",
+        "url": "https://github.com/nikhilgotawala"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "Indian Institute of Technology (IIT) Bombay, Mumbai, India",
+      "area": "Ph.D., Mechanical Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2017-01",
+      "endDate": "2021-12",
+      "gpa": 9.0,
+      "courses": ["Numerical modeling and microstructure evolution in friction stir welding of dissimilar materials"]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "institution": "Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, India",
+      "area": "M.Tech, Mechanical Engineering",
+      "studyType": "M.Tech",
+      "startDate": "2014-07",
+      "endDate": "2016-06",
+      "gpa": 9.25,
+      "courses": ["Mechanical Engineering"]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Government Engineering College, Surat, India",
+      "area": "B.E., Mechanical Engineering",
+      "studyType": "B.E.",
+      "startDate": "2009-07",
+      "endDate": "2013-06",
+      "gpa": 7.53,
+      "courses": ["Mechanical Engineering"]
     }
   ],
   "skills": [],
@@ -66,87 +66,80 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Phase transformation during friction stir processing of dual-phase 600 steel",
+      "publisher": "Journal of Materials Science",
+      "releaseDate": "2020-01-01",
+      "website": "https://doi.org/10.1007/s10853-019-04270-5",
+      "summary": "Analysis of phase transformation during friction stir processing of dual-phase steel."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Microstructural analysis and mechanical behavior of SS 304 and titanium joint from friction stir butt welding",
+      "publisher": "Materials Science and Engineering: A",
+      "releaseDate": "2020-01-01",
+      "website": "https://doi.org/10.1016/j.msea.2020.139658",
+      "summary": "Comprehensive analysis of microstructure and mechanical properties in SS 304 and titanium friction stir welds."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Analysis of material distribution in dissimilar friction stir welded joints of Al 1050 and copper",
+      "publisher": "Journal of Manufacturing Processes",
+      "releaseDate": "2020-01-01",
+      "website": "https://doi.org/10.1016/j.jmapro.2020.07.043",
+      "summary": "Investigation of material distribution in dissimilar Al-Cu friction stir welded joints."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Material flow path and extreme thermomechanical processing history during additive friction stir deposition",
+      "publisher": "Journal of Manufacturing Processes",
+      "releaseDate": "2023-01-01",
+      "website": "https://doi.org/10.1016/j.jmapro.2023.05.095",
+      "summary": "Analysis of material flow and thermomechanical processing during additive friction stir deposition."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Investigation of interfacial diffusion during dissimilar friction stir welding",
+      "event": "Friction Stir Welding and Processing X",
+      "date": "2019-01-01",
+      "location": "Cham, Switzerland",
+      "description": "Presented research on interfacial diffusion in dissimilar friction stir welding"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Analysis of Al 6061 and Mild Steel Joints from Rotary Friction Welding",
+      "event": "TMS 2021 150th Annual Meeting & Exhibition",
+      "date": "2021-01-01",
+      "location": "Virtual",
+      "description": "Presented analysis of Al 6061 and mild steel joints from rotary friction welding"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Effect of Diffusion on Intermetallics at Interface During Friction Stir Welding of Stainless Steel and Pure Titanium",
+      "event": "Friction Stir Welding and Processing XI",
+      "date": "2021-01-01",
+      "location": "Virtual",
+      "description": "Presented research on diffusion effects on intermetallics during FSW of SS and Ti"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Teaching Assistant (TA)",
+      "institution": "Department of Mechanical Engineering, IIT Bombay",
+      "date": "2017-01-01",
+      "role": "Teaching Assistant",
+      "description": "Assisted in ME338 (Manufacturing Process II): prepared tutorials, exams. Lead TA in ME213 (Manufacturing Practice Lab): taught CNC programming and simulator."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Additive Friction Stir Deposition Research",
+      "category": "research",
+      "date": "2022",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "3D CFD-based thermo-mechanical model for additive friction stir deposition<br/><img src='/images/500x300.png'>"
+    },
+    {
+      "name": "Dissimilar Friction Stir Welding",
+      "category": "research",
+      "date": "2021",
+      "url": "",
+      "description": "Coupled CFD and VOF-based model for dissimilar FSW with phase transformations<br/><img src='/images/500x300.png'>"
     }
   ]
 }
