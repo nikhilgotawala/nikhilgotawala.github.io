@@ -27,7 +27,7 @@ author_profile: true
 *Jan 2017 - Dec 2021*
 
 - **Supervisor:** Prof. Amber Shrivastava
-- **Research Focus:** Numerical modeling and microstructure evolution in friction stir welding
+- **Research Focus:** Numerical modeling and microstructure evolution in dissimilar material friction stir welding
 - **Projects:** Coupled CFD and VOF-based modeling for dissimilar FSW, phase transformations analysis
 - **Achievements:** Successfully completed Ph.D. with CGPA 9.0/10
 
