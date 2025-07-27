@@ -54,9 +54,8 @@ author_profile: true
 ### Current Research (Virginia Tech)
 - **Additive Friction Stir Deposition:** 3D CFD-based thermo-mechanical modeling
 - **Material Flow Analysis:** Prediction of material flow paths and thermomechanical properties
-- **Tool Wear and Contamination:** Investigation in high-strength alloys
 
 ### Previous Research (IIT Bombay)
 - **Dissimilar Friction Stir Welding:** Coupled CFD and VOF-based modeling
-- **Phase Transformations:** IMC growth using diffusion and thermodynamic analysis
+- **Intermetalic compound formation:** IMC growth using diffusion and thermodynamic analysis
 - **Microstructure Characterization:** Evolution in FSW and FSP processes 
