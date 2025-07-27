@@ -33,13 +33,6 @@ author_profile: true
 
 ---
 
-### Research Seminars
-
-**Numerical Modeling and Microstructure Evolution in Friction Stir Welding**  
-*IIT Bombay Mechanical Engineering Department Seminar, 2021*
-
----
-
 ### Upcoming Talks
 
 *Looking for speaking opportunities in solid-state manufacturing, materials science, and computational modeling. Please reach out if you'd like me to present my research!*
