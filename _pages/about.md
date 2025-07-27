@@ -14,7 +14,6 @@ My expertise lies in ** numerical modeling** and **computational material scienc
 
 My current work at Virginia Tech focuses on **additive friction stir deposition (AFSD)**, where I develop 3D CFD-based thermo-mechanical models to predict material flow paths and thermomechanical properties. I also investigate heterogeneous lamellar microstructures and tool wear in high-strength alloys.
 
-**PS: I am actively seeking research collaborations in solid-state manufacturing and materials processing. If you are interested, please drop me an email.**
 
 ## Latest News
 
