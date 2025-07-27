@@ -68,5 +68,5 @@ author_profile: true
 
 ### Academic Excellence
 - Completed Ph.D. with outstanding academic performance (CGPA 9.0/10)
-- Presented research at prestigious conferences including TMS Annual Meeting and Friction Stir Welding and Processing conferences
+- Presented research at prestigious conferences including TMS Annual Meeting, MS&T, and Friction Stir Welding and Processing conferences
 - Established expertise in coupled numerical modeling and computational material science 
