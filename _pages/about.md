@@ -20,7 +20,7 @@ My current work at Virginia Tech focuses on **additive friction stir deposition 
 * Successfully completed Ph.D. in Mechanical Engineering from IIT Bombay with CGPA 9.0/10.
 * Currently working as a Postdoctoral Researcher at Virginia Tech in Materials Science and Engineering.
 * Published multiple high-impact journal papers in Materials Science and Engineering: A, Journal of Materials Science, and Journal of Manufacturing Processes.
-* Presented research at prestigious conferences, including the TMS Annual Meeting and the MS&T conferences.
+* Presented research at prestigious conferences, including TMS Annual Meeting and MS&T conferences.
 * Developed advanced CFD models for additive friction stir deposition and dissimilar friction stir welding.
 * Investigating material flow and thermomechanical history in solid-state manufacturing processes.
 
