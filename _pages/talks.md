@@ -13,8 +13,13 @@ author_profile: true
 
 ### Conference Presentations
 
-**Investigation of interfacial diffusion during dissimilar friction stir welding**  
-*Friction Stir Welding and Processing X, Cham, Switzerland, 2019*
+**Dissimilar Material Multilayer Deposition Using Additive Friction Stir Deposition**
+*MS&T24, Pittsburgh, 2024*
+
+---
+
+**Capturing the Thermo-mechanical History of Additive Friction Stir Deposited Al6061 Using a Three-dimensional CFD Based Numerical Model**  
+*TMS 2023 152th Annual Meeting & Exhibition Cham, San Diego, 2023*
 
 ---
 
@@ -25,13 +30,6 @@ author_profile: true
 
 **Effect of Diffusion on Intermetallics at Interface During Friction Stir Welding of Stainless Steel and Pure Titanium**  
 *Friction Stir Welding and Processing XI, Virtual, 2021*
-
----
-
-### Poster Presentations
-
-**Material Flow and Thermomechanical Processing in Additive Friction Stir Deposition**  
-*Virginia Tech Materials Science and Engineering Symposium, 2023*
 
 ---
 
