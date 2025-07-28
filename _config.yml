@@ -20,7 +20,7 @@ repository               : "nikhilgotawala/nikhilgotawala.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 author:
   # Biographic information
-  avatar           : "pic.jpg"
+  avatar           : "assets/images/pic.jpg"
   name             : "Nikhil Gotawala"
   pronouns         : # example: "he/him"  
   bio              : "Postdoctoral Researcher in Materials Science and Engineering at Virginia Tech, specializing in solid-state manufacturing processes"
